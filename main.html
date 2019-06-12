@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href='./main.css'>
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <title>ReactJS Meetup June 11, 2019</title>
+</head>
+<body>
+    <header class="main-header">
+        <h1>ReactJS Meetup Notes (6/11/19)</h1>
+        <nav>
+            <a href="./docker.html">Docker</a>
+            <a href="./react.html">React</a>
+        </nav>
+    </header>
+    <section class="docker">
+        <header>
+            <h1>Docker Notes</h1>
+        </header>
+        <ul class="notes">
+            <section class="container">
+                <h2>1) Docker Scenarios</h2>
+                <li class="main-points">Local Dev
+                    <ul class="points">
+                        <li>A clean environment that represents prod</li>
+                        <li>Multiple DB versions, NodeJS versions, running at the same time</li>
+                        <li>Network Isolation</li>
+                    </ul>
+                </li>
+                <li class="main-points">Continuous Integration - End to End testing</li>
+                <li class="main-points">Production
+                    <ul class="points">
+                        <li>Scaling</li>
+                        <li>Predictable environments</li>
+                        <li>Dynamic environments ame server</li>
+                    </ul>
+                </li>
+            </section>
+            <section class="container">
+                <h2>2) Docker Topics</h2>
+                <li class="main-points">The Dockerfile</li>
+                <li class="main-points">The Registry</li>
+                <li class="main-points">Docker Hub</li>
+                <li class="main-points">Docker-compose</li>
+                <li class="main-points">Orchestration</li>
+            </section>
+            <section class="container">
+                <h2>3) About Testing</h2>
+                <li class="main-points">Unit Testing</li>
+                <li class="main-points">System / Integration testing</li>
+                <li class="main-points">End to end testing</li>
+            </section>
+            <section class="container">
+                <h2>4) Summery by Mark</h2>
+                <p>Imagine you make some hospital software that the nurses use to do something - clock in or whatever.
+                    You do that in react. <br> Every week the hospital wants to make the system bigger/better somehow,
+                    and do more. So you're always coding and pushing your code out for the nurses to use. <br>
+                    Before you push, you have to test the system completely to ensure it's not broken.
+                    You can use Docker or whatever else to automate the testing so you don't have to spend 3 days
+                    manually pushing every button. Seems like a PITA to setup, but better than doing the same thing
+                    over and over and over and over...</p>
+            </section>
+        </ul>
+    </section>
+    <section class="react">
+        <header>
+            <h1>React 201 Notes</h1>
+        </header>
+        <ul class="notes">
+            <section class="container">
+                <h2>1) Lifecycle</h2>
+                <li class="main-points">Mounting - Birth of your component</li>
+                <li class="main-points">Update - Growth of your component</li>
+                <li class="main-points">Unmount - Death of your component</li>
+            </section>
+            <section class="container">
+                <h2>2) Diving in!</h2>
+                <li class="main-points"><a href="https://github.com/m2mathew/react-102">His Repo</a></li>
+            </section>
+        </ul>
+    </section>
+</body>
+</html>

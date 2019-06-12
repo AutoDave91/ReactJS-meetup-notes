@@ -1,0 +1,29 @@
+body{
+    background-color: blanchedalmond;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+.notes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    padding: 0%;
+}
+.container{
+    background-color: wheat;
+    width: 40vw;
+    margin-bottom: 5vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+h1, h2{
+    font-family: 'Kaushan Script', cursive;
+}
+.main-points{
+    margin-left: 5vw;
+    margin-bottom: 2vh;
+}
